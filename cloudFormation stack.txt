@@ -1,0 +1,4 @@
+AWS cloudformation create-stack \
+  --stack-name myteststack \
+  --template-body file://"C:\Users/Bo/cloudformation-project" \
+  --region us-west-1
