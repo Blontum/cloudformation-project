@@ -1,0 +1,10 @@
+Resources:
+  EC2Instance:
+    Type: AWS::EC2::Instance
+    Properties: 
+      InstanceType: t2.micro
+      ImageId: ami-0a2781a262879e465
+      AvailabilityZone: us-west-1a
+      Tags:
+       -  Key: Name
+          Value: Bonaventou
